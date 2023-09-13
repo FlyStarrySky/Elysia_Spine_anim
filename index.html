@@ -1,4 +1,23 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-<head></head>
-<body>hellow world!</body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 网页标题 -->
+    <title>spine-text</title>
+</head>
+<body>
+    
+    <script src="https://flystarrysky.github.io/Elysia_Spine_anim/Spine_Elysiaanim/spine-player.js"></script>
+    <link rel="stylesheet" href="https://flystarrysky.github.io/Elysia_Spine_anim/Spine_Elysiaanim/spine-player.css">
+    <div id = "aili" style="width: 100%; height: 50vh;"></div>
+
+    <script>
+        new spine.SpinePlayer("aili",{
+            jsonUrl: "https://flystarrysky.github.io/Elysia_Spine_anim/Spine_Elysiaanim/aili.json",
+            atlasUrl: "https://flystarrysky.github.io/Elysia_Spine_anim/Spine_Elysiaanim/aili.atlas"
+        });
+    </script>
+    
+</body>
+</html>
