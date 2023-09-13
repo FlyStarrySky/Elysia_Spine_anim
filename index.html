@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,15 +7,23 @@
     <title>spine-text</title>
 </head>
 <body>
-    
+    <!-- 运行库 -->
     <script src="https://flystarrysky.github.io/Elysia_Spine_anim/Spine_Elysiaanim/spine-player.js"></script>
+    <!-- 窗口样式 -->
     <link rel="stylesheet" href="https://flystarrysky.github.io/Elysia_Spine_anim/Spine_Elysiaanim/spine-player.css">
     <div id = "aili" style="width: 100%; height: 50vh;"></div>
 
     <script>
         new spine.SpinePlayer("aili",{
+            //动画数据
             jsonUrl: "https://flystarrysky.github.io/Elysia_Spine_anim/Spine_Elysiaanim/aili.json",
-            atlasUrl: "https://flystarrysky.github.io/Elysia_Spine_anim/Spine_Elysiaanim/aili.atlas"
+            //图片资产
+            atlasUrl: "https://flystarrysky.github.io/Elysia_Spine_anim/Spine_Elysiaanim/aili.atlas",
+            //设置皮肤
+            skin:["Base—戴头盔"],
+            //背景透明 
+            alpha: true,
+            backgroundColor: "#00000000" // Background is fully transparent
         });
     </script>
     
