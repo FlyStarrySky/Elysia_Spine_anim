@@ -5,14 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- 网页标题 -->
     <title>spine-text</title>
-</head>
-<body>
     <!-- 运行库 -->
     <script src="https://flystarrysky.github.io/Elysia_Spine_anim/Spine_Elysiaanim/spine-player.js"></script>
     <!-- 窗口样式 -->
     <link rel="stylesheet" href="https://flystarrysky.github.io/Elysia_Spine_anim/Spine_Elysiaanim/spine-player.css">
-    <div id = "aili" style="width: 100%; height: 50vh;"></div>
 
+    <style>
+        .demo{
+            width: 180px;
+            height: 252px;
+            background-image: url("https://flystarrysky.github.io/Elysia_Spine_anim/Spine_Elysiaanim/animation.png");
+            animation: aili 1s steps(1,start) infinite;
+            /* background-position: -181px,0;
+            background-repeat: no-repeat; */
+        }
+        @keyframes aili{
+            0%{
+                background-position: -181px, 0;
+            }
+            10%{
+                background-position: -1086px, 0;    
+            }
+            20%{
+                background-position: -362px, 0;     
+            }
+            30%{
+                background-position: -1267px, 0;    
+            }
+            40%{
+                background-position: -905px, 0;     
+            }
+            50%{
+                background-position: -181px,0;
+            }
+            60%{
+                background-position: -724px, 0;     
+            }
+            70%{
+                background-position: -543px, 0;     
+            }
+            80%{
+                background-position: -1629px, 0;     
+            }
+            90%{
+                background-position: -1448px, 0;           
+            }
+            100%{
+                background-position: 0, 0;     
+            }
+        } 
+    </style>
+
+</head>
+<body>
+    <div id = "aili" style="width: 50%; height: 50vh;"></div>
     <script>
         new spine.SpinePlayer("aili",{
             //动画数据
@@ -27,5 +73,8 @@
         });
     </script>
     
+    <!-- 动画 -->
+    <div class = demo></div>
+
 </body>
 </html>
