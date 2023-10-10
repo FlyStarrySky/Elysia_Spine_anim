@@ -60,17 +60,23 @@
 <body>
     <div id = "aili" style="width: 100%; height: 50vh;"></div>
     <script>
-        new spine.SpinePlayer("aili",{
+         let aili = new spine.SpinePlayer("aili",{
             //动画数据
             jsonUrl: "https://flystarrysky.github.io/Elysia_Spine_anim/Spine_Elysiaanim/asset/aili.json",
             //图片资产
             atlasUrl: "https://flystarrysky.github.io/Elysia_Spine_anim/Spine_Elysiaanim/asset/aili.atlas",
             //设置皮肤
             skin:["Base—戴头盔"],
+
+            let newskin = new spine.core.skin("Myskin"),
+            newskin.addskin(aili.spinedata.findskin("头饰/发饰1"))
+            aili.skeleton.setSkin(newSkin); 
+            aili.skeleton.setSlotsToSetupPose();
+                              
             //背景透明 
             alpha: true,
             backgroundColor: "#00000000", // Background is fully transparent
-            showControls: false,
+            showControls: true,
         });
     </script>
     
