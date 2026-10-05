@@ -1,0 +1,167 @@
+
+bannerBackground.png
+size: 1540,386
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01/basle
+  rotate: false
+  xy: 1005, 29
+  size: 60, 42
+  orig: 60, 42
+  offset: 0, 0
+  index: -1
+01/rock 2(back)
+  rotate: false
+  xy: 452, 2
+  size: 278, 180
+  orig: 278, 180
+  offset: 0, 0
+  index: -1
+01/rock 3(back)
+  rotate: false
+  xy: 821, 22
+  size: 120, 49
+  orig: 120, 49
+  offset: 0, 0
+  index: -1
+01/rock 5(back)
+  rotate: false
+  xy: 1187, 121
+  size: 163, 46
+  orig: 163, 46
+  offset: 0, 0
+  index: -1
+01/rock4(back)
+  rotate: false
+  xy: 1369, 256
+  size: 95, 98
+  orig: 95, 98
+  offset: 0, 0
+  index: -1
+Back fish black  group_OG
+  rotate: false
+  xy: 1187, 21
+  size: 137, 56
+  orig: 137, 56
+  offset: 0, 0
+  index: -1
+Back fish white group2_OG
+  rotate: false
+  xy: 1369, 236
+  size: 60, 18
+  orig: 60, 18
+  offset: 0, 0
+  index: -1
+Layer 69
+  rotate: true
+  xy: 452, 184
+  size: 200, 386
+  orig: 200, 386
+  offset: 0, 0
+  index: -1
+Middle fish black group 1_OG
+  rotate: true
+  xy: 1369, 5
+  size: 228, 59
+  orig: 228, 59
+  offset: 0, 0
+  index: -1
+Middle fish black group 2_OG
+  rotate: true
+  xy: 1468, 235
+  size: 149, 68
+  orig: 149, 68
+  offset: 0, 0
+  index: -1
+Middle fish white group 1_OG
+  rotate: false
+  xy: 732, 18
+  size: 78, 36
+  orig: 78, 36
+  offset: 0, 0
+  index: -1
+back
+  rotate: false
+  xy: 943, 29
+  size: 60, 42
+  orig: 60, 42
+  offset: 0, 0
+  index: -1
+fish_blue_(front)OG
+  rotate: true
+  xy: 1518, 183
+  size: 50, 20
+  orig: 50, 20
+  offset: 0, 0
+  index: -1
+fish_guide_01
+  rotate: true
+  xy: 732, 56
+  size: 126, 87
+  orig: 126, 87
+  offset: 0, 0
+  index: -1
+fish_stripe_(front)OG
+  rotate: true
+  xy: 1326, 5
+  size: 72, 40
+  orig: 72, 40
+  offset: 0, 0
+  index: -1
+front
+  rotate: false
+  xy: 1067, 29
+  size: 60, 42
+  orig: 60, 42
+  offset: 0, 0
+  index: -1
+light 1_OG
+  rotate: true
+  xy: 2, 5
+  size: 379, 448
+  orig: 452, 491
+  offset: 0, 43
+  index: -1
+middle
+  rotate: true
+  xy: 1129, 11
+  size: 60, 42
+  orig: 60, 42
+  offset: 0, 0
+  index: -1
+rock 1(back)
+  rotate: false
+  xy: 1187, 79
+  size: 160, 40
+  orig: 160, 40
+  offset: 0, 0
+  index: -1
+upper light water_OG
+  rotate: false
+  xy: 840, 356
+  size: 626, 28
+  orig: 626, 28
+  offset: 0, 0
+  index: -1
+whale(middle)
+  rotate: false
+  xy: 840, 169
+  size: 527, 185
+  orig: 527, 185
+  offset: 0, 0
+  index: -1
+whale(middle) light
+  rotate: false
+  xy: 821, 73
+  size: 364, 94
+  orig: 436, 94
+  offset: 0, 0
+  index: -1
+whale(middle) shadow
+  rotate: true
+  xy: 1430, 10
+  size: 223, 86
+  orig: 223, 100
+  offset: 0, 8
+  index: -1
